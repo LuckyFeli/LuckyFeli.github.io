@@ -21,9 +21,9 @@
 			</p>
             {% endif %}
 			{% if post.link %}
-			<body>
+			<p>
 			<a{% post.link %}>{% post.linkText %}</a>
-			</body>
+			</p>
 				{% endif %}
 				{% if post.youtubeId %}
 					{% include youtubePlayer.html id=post.youtubeId %}
