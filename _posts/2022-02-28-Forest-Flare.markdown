@@ -8,5 +8,5 @@ project-date: February 2022
 client: Myself
 category: Game Jam
 description: Our Entry for Brackeys Game Jam 2022.1 I worked on the different abilities the player has to use in the game and also on the saving system and movement system. 
-link:href="https://lucky-toast.itch.io/forest-flare"> Link to the Game:
+link: href="https://lucky-toast.itch.io/forest-flare"> Link to the Game: 
 ---
