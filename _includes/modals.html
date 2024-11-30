@@ -21,9 +21,10 @@
 			</p>
             {% endif %}
 			{% if post.link %}
-				{ post.link }
-			{% endif %}
-			{% if post.youtubeId %}
+			<p>{ post.link }
+			</p>
+				{% endif %}
+				{% if post.youtubeId %}
 					{% include youtubePlayer.html id=post.youtubeId %}
 				{% endif %}
             <ul class="list-inline item-details">
