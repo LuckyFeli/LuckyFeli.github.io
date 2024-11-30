@@ -22,7 +22,7 @@
             {% endif %}
 			{% if post.link %}
 			<p>
-			<a href={{% post.link %}}>{{% post.linkText %}}</a>
+			<a href={{ post.link }}>{{ post.linkText }}</a>
 			</p>
 				{% endif %}
 				{% if post.youtubeId %}
