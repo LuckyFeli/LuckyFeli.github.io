@@ -20,9 +20,7 @@
             <p>{{ post.description }}
 			</p>
             {% endif %}
-			{% if post.youtubeId %}
-			{{ include youtubePlayer.html id=post.youtubeId %}}
-			{% endif %}
+			
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -40,6 +38,9 @@
               </li>
               {% endif %}
             </ul>
+			{% if post.youtubeId %}
+			{ include youtubePlayer.html id=post.youtubeId %}
+			{% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
