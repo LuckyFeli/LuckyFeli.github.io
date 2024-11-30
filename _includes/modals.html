@@ -27,6 +27,9 @@
                 <strong>{{ post.client }}</strong>
               </li>
               {% endif %}
+			  {% if post.youtubeId %}
+			{% include youtubePlayer.html id=post.youtubeId %}
+			{% endif %}
               {% if post.project-date %}
               <li>Date:
                 <strong>{{ post.project-date }}</strong>
