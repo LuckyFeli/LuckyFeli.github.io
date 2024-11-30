@@ -8,5 +8,5 @@ project-date: March 2022
 client: Hochschule Kempten
 category: Game Development
 description: A small Project for our Computer Graphics Course in the third semester. The Models were created by myself in Blender and the Game was created in QT with the SGFramework froum our University, the game logic was mainly from me.
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/_gsM0rvKKko" title="Flappy King Von Richard Mayer und Felix Hänsel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="1"> </iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/_gsM0rvKKko" title="Flappy King Von Richard Mayer und Felix Hänsel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"> </iframe>
 ---
