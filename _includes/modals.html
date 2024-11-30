@@ -17,7 +17,9 @@
             <hr class="star-primary">
             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <p>{{ post.description }}
+				{% include youtubePlayer.html id=_gsM0rvKKko %}
+			</p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
